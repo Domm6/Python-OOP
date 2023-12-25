@@ -13,3 +13,5 @@ hello()
 # methods
 string = "hello"
 print(string.upper())  # .upper is method acting on the object string
+
+

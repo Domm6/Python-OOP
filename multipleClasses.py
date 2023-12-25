@@ -38,4 +38,5 @@ course = Course("Math", 2)
 course.add_student(s1)
 course.add_student(s2)
 print(course.students[0].name)  # prints name of first student
+course.add_student(s3) # returns false and grade deosn't change cause student wasn't added
 print(course.get_average_grade())
